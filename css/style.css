@@ -1,0 +1,212 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:980px;
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+::placeholder {
+  color:#D3CFCB;
+}
+
+.navbar {
+	overflow: hidden;
+	
+  }
+  .navbar a {
+	float: left;
+	font-size: 16px;
+	/* color: white; */
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  .dropdown {
+	float: left;
+	overflow: hidden;
+  }
+  .dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	/* color: white; */
+	padding: 14px 16px;
+	/* background-color: inherit; */
+	font-family: inherit;
+	margin: 0;
+  }
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+	/* text-decoration: underline; */
+	/* color: #54C5CA; */
+  }
+  .navbar a:hover {
+	text-decoration: underline;
+	color: #54C5CA;
+  }
+header{
+	/* height: 100px; 
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 0 32px;
+	align-items: center;*/
+}	
+header section.header {
+	/* display: flex; */
+}
+header section.header div.left {
+	/* width: 15%; */
+}
+header section.header div.left h1 {
+	/* width: 110px; */
+	/* margin-right: 40px; */
+}
+header section.header div.left h1 a {
+	/* display: inline-block; */
+}
+header section.header div.left h1 a img {
+	/* display: block; */
+	/* width: 100%; */
+}
+header section.header div.right {
+	/* display: flex; */
+}
+header section.header div.right nav{}
+header section.header div.right nav ul {
+	/* display: flex; */
+	/* align-items: center; */
+}
+header section.header div.right nav ul li{
+	/* margin-right: 40px; */
+}
+header section.header div.right nav ul li a {
+	/* border: none; */
+	/* background: none; */
+	/* padding: 3px; */
+	/* display: inline-block; */
+}
+header section.header div.right nav ul li a.container{
+	/* background: #54C5CA; 
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    color: #fff;
+	border-radius: 35px;
+	padding: 12px 22px;*/
+}
+header section.header div.right nav ul li a.container div.image {
+	/* width: 10%; */
+	
+}
+header section.header div.right nav ul li a.container div.image img {
+	/* display: block; */
+	/* width: 100%; */
+}
+#spotlight{}
+#spotlight section.wrapper {}
+#spotlight section.wrapper h1 {}
+#spotlight section.wrapper p{}
+#spotlight section.wrapper form {}
+#spotlight section.wrapper form div.container {}
+#spotlight section.wrapper form div.container img {}
+#spotlight section.wrapper form input {}
+#spotlight section.wrapper form a.btn{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
